@@ -1,1 +1,1 @@
-print("Hello world, from server!")
+require(script.Bootstrap).start()

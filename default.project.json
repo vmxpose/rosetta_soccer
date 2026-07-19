@@ -8,7 +8,13 @@
     },
 
     "ReplicatedStorage": {
-      "$path": "src/shared"
+      "$path": "src/shared",
+      "RosettaRemotes": {
+        "$className": "Folder",
+        "Snapshot": { "$className": "UnreliableRemoteEvent" },
+        "Intent": { "$className": "RemoteEvent" },
+        "Reliable": { "$className": "RemoteEvent" }
+      }
     },
 
     "ServerScriptService": {
